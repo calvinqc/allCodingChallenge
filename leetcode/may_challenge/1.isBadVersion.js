@@ -14,11 +14,10 @@ call isBadVersion(5) -> true
 call isBadVersion(4) -> true
 
 Then 4 is the first bad version. 
- */
+*/
 
 /**
  * Definition for isBadVersion()
- *
  * @param {integer} version number
  * @return {boolean} whether the version is bad
  * isBadVersion = function(version) {
@@ -47,9 +46,3 @@ var solution = function(isBadVersion) {
     return start;
   };
 };
-
-/**
- * Lesson Learned:
- * 1. Think simply, sometimes use while instead of for loop
- * 2. Binary search if you know the answer should be in the other half.
- */

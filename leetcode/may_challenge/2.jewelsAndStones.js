@@ -24,19 +24,5 @@
  * @return {number}
  */
 var numJewelsInStones = function(J, S) {
-  return S.split("").filter(stone => J.split("").includes(stone)).length;
+  return S.split("").filter(stone => J.includes(stone)).length;
 };
-
-/**
- * Lesson Learned:
- * 1. If I want to loop through a String, use split("") to convert into array of characters
- * 2. Use map, reduce, filter
- *    a. filter:  Remove items which don’t satisfy a condition
- *        Ex: Selecting candidates who passed the test
- *
- *    b. map:     Executes a function on each element of an array
- *        Ex: Conducting a test for multiple candidates
- *
- *    c. reduce:  Creates a single value from elements of Array
- *        Ex: Creating a team from the selected candidates
- */
