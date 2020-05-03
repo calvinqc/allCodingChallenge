@@ -4,16 +4,17 @@ These are lesson learned when I used Javascript to solve LeetCode problems Start
 
 ## Table of Content
 
-1. [isBadVersion](#1.-isBadVersion)
-2. [jewelsAndStones.js](#2.-jewelsAndStones.js)
+1. [isBadVersion](#1.isBadVersion.js)
+2. [jewelsAndStones.js](#2.jewelsAndStones.js)
+3. [ransomNote](#3.ransomNote.js)
 
-## 1. isBadVersion
+## [1.isBadVersion.js](./may_challenge/1.isBadVersion.js)
 
 1. Think simply, sometimes use while instead of for loop
 
 2. Binary search if you know the answer should be in the other half.
 
-## 2. jewelsAndStones.js
+## [2.jewelsAndStones.js](./may_challenge/2.jewelsAndStones.js)
 
 1. If you want to loop through a String, use split("") to convert into array of characters
 
@@ -29,3 +30,11 @@ These are lesson learned when I used Javascript to solve LeetCode problems Start
 
 - **reduce**: Creates a single value from elements of Array
   - Ex: Creating a team from the selected candidates
+
+## [3.ransomNote.js](./may_challenge/3.ransomNote.js)
+
+1. Using for...of or regular for loop instead of map, forEach, etc. for async
+
+2. Always spend another 15' to learn from other solutions, and try those to learn about time and space.
+
+3. avoid create new array, sets for better memory usage.
