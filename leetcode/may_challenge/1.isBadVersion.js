@@ -29,17 +29,17 @@ Then 4 is the first bad version.
  * @param {function} isBadVersion()
  * @return {function}
  */
-var solution = function(isBadVersion) {
+const solution = isBadVersion => {
   /**
    * @param {integer} n Total versions
    * @return {integer} The first bad version
    */
   return function(n) {
-    let start = 1,
-      end = n;
+    let start = 1;
+    let end = n;
 
     while (start < end) {
-      let mid = start + Math.floor((end - start) / 2);
+      const mid = start + Math.floor((end - start) / 2);
       if (isBadVersion(mid)) end = mid;
       else start = mid + 1;
     }

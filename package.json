@@ -1,0 +1,37 @@
+{
+  "name": "allcodingchallenge",
+  "version": "1.0.0",
+  "description": "stores all coding challenges from LeetCode & many companies' coding challenge",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/calvinqc/allCodingChallenge.git"
+  },
+  "keywords": [
+    "leetcode",
+    "challenge",
+    "javascript"
+  ],
+  "author": "Calvin Nguyen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/calvinqc/allCodingChallenge/issues"
+  },
+  "homepage": "https://github.com/calvinqc/allCodingChallenge#readme",
+  "dependencies": {
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-prettier": "^3.1.3",
+    "prettier": "^2.0.5"
+  },
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb": "^18.1.0",
+    "eslint-plugin-import": "^2.20.2",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-react": "^7.19.0",
+    "eslint-plugin-react-hooks": "^2.5.0"
+  }
+}

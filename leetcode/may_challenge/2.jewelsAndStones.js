@@ -23,6 +23,6 @@
  * @param {string} S
  * @return {number}
  */
-var numJewelsInStones = function(J, S) {
-  return S.split("").filter(stone => J.includes(stone)).length;
+const numJewelsInStones = (J, S) => {
+  return S.split('').filter(stone => J.includes(stone)).length;
 };

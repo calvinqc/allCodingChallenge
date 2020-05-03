@@ -16,10 +16,10 @@ canConstruct("aa", "aab") -> true
  * @param {string} magazine
  * @return {boolean}
  */
-var canConstruct = function(ransomNote, magazine) {
-  let magChar = magazine.split("");
+const canConstruct = (ransomNote, magazine) => {
+  const magChar = magazine.split('');
   for (const el of ransomNote) {
-    if (magChar.includes(el)) magChar[magChar.indexOf(el)] = "";
+    if (magChar.includes(el)) magChar[magChar.indexOf(el)] = '';
     else return false;
   }
   return true;
