@@ -46,3 +46,9 @@ These are lesson learned when I used Javascript to solve LeetCode problems Start
 2. Learn flags and bitmasks
    - Binary flags take much less memory (by a factor of 32).
    - A bitmask is a sequence of bits that can manipulate and/or read flags
+
+## [5.firstUniqueChar.js](https://github.com/calvinqc/allCodingChallenge/tree/master/leetcode/may_challenge/5.firstUniqueChar.js)
+
+1. Learn String's Index
+
+2. `s.lastIndexOf(char) === s.indexOf(char)` will let me if know if that char is duplicate or not
