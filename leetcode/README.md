@@ -7,6 +7,9 @@ These are lesson learned when I used Javascript to solve LeetCode problems Start
 1. [isBadVersion](#1.isBadVersion.js)
 2. [jewelsAndStones.js](#2.jewelsAndStones.js)
 3. [ransomNote](#3.ransomNote.js)
+4. [findComplement.js](#4.findComplement.js)
+5. [firstUniqueChar](#5.firstUniqueChar.js)
+6. [majorityElement](#6.majorityElement.js)
 
 ## [1.isBadVersion.js](https://github.com/calvinqc/allCodingChallenge/tree/master/leetcode/may_challenge/1.isBadVersion.js)
 
@@ -39,7 +42,7 @@ These are lesson learned when I used Javascript to solve LeetCode problems Start
 
 3. avoid create new array, sets for better memory usage.
 
-## [4.ransomNote.js](https://github.com/calvinqc/allCodingChallenge/tree/master/leetcode/may_challenge/4.findComplement.js)
+## [4.findComplement.js](https://github.com/calvinqc/allCodingChallenge/tree/master/leetcode/may_challenge/4.findComplement.js)
 
 1. Learn to use [bitwise operators](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Bitwise_Operators)
 
@@ -52,3 +55,7 @@ These are lesson learned when I used Javascript to solve LeetCode problems Start
 1. Learn String's Index
 
 2. `s.lastIndexOf(char) === s.indexOf(char)` will let me if know if that char is duplicate or not
+
+## [6.majorityElement.js](https://github.com/calvinqc/allCodingChallenge/tree/master/leetcode/may_challenge/6.majorityElement.js)
+
+N/A
