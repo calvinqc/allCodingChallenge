@@ -10,6 +10,7 @@ These are lesson learned when I used Javascript to solve LeetCode problems Start
 4. [findComplement.js](#4.findComplement.js)
 5. [firstUniqueChar](#5.firstUniqueChar.js)
 6. [majorityElement](#6.majorityElement.js)
+7. [isCounsins](#7.isCousins.js)
 
 ## [1.isBadVersion.js](https://github.com/calvinqc/allCodingChallenge/tree/master/leetcode/may_challenge/1.isBadVersion.js)
 
@@ -59,3 +60,9 @@ These are lesson learned when I used Javascript to solve LeetCode problems Start
 ## [6.majorityElement.js](https://github.com/calvinqc/allCodingChallenge/tree/master/leetcode/may_challenge/6.majorityElement.js)
 
 N/A
+
+## [7.isCousins.js](https://github.com/calvinqc/allCodingChallenge/tree/master/leetcode/may_challenge/7.isCousins.js)
+
+1. Learn to apply recursion to traverse a Binary Search Tree
+
+2. Finding depth of a node
