@@ -11,6 +11,7 @@ These are lesson learned when I used Javascript to solve LeetCode problems Start
 5. [firstUniqueChar](#5.firstUniqueChar.js)
 6. [majorityElement](#6.majorityElement.js)
 7. [isCounsins](#7.isCousins.js)
+8. [isLinear](#7.isLinear.js)
 
 ## [1.isBadVersion.js](https://github.com/calvinqc/allCodingChallenge/tree/master/leetcode/may_challenge/1.isBadVersion.js)
 
@@ -66,3 +67,7 @@ N/A
 1. Learn to apply recursion to traverse a Binary Search Tree
 
 2. Finding depth of a node
+
+## [7.isLinear.js](https://github.com/calvinqc/allCodingChallenge/tree/master/leetcode/may_challenge/7.isLinear.js)
+
+1. Review Cross Product
