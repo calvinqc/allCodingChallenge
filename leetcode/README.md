@@ -4,22 +4,24 @@ These are lesson learned when I used Javascript to solve LeetCode problems Start
 
 ## Table of Content
 
-1. [isBadVersion](#1.isBadVersion.js)
-2. [jewelsAndStones.js](#2.jewelsAndStones.js)
-3. [ransomNote](#3.ransomNote.js)
-4. [findComplement.js](#4.findComplement.js)
-5. [firstUniqueChar](#5.firstUniqueChar.js)
-6. [majorityElement](#6.majorityElement.js)
-7. [isCounsins](#7.isCousins.js)
-8. [isLinear](#7.isLinear.js)
+1. [isBadVersion](#isBadVersion)
+2. [jewelsAndStones](#jewelsAndStones)
+3. [ransomNote](#ransomNote)
+4. [findComplement](#findComplement)
+5. [firstUniqueChar](#firstUniqueChar)
+6. [majorityElement](#majorityElement)
+7. [isCounsins](#isCousins)
+8. [isLinear](#isLinear)
+9. [isPerfectSquare](#isPerfectSquare)
+10. [findJudge](#.findJudge)
 
-## [1.isBadVersion.js](https://github.com/calvinqc/allCodingChallenge/tree/master/leetcode/may_challenge/1.isBadVersion.js)
+## [isBadVersion](https://github.com/calvinqc/allCodingChallenge/tree/master/leetcode/may_challenge/1.isBadVersion.js)
 
 1. Think simply, sometimes use while instead of for loop
 
 2. Binary search if you know the answer should be in the other half.
 
-## [2.jewelsAndStones.js](https://github.com/calvinqc/allCodingChallenge/tree/master/leetcode/may_challenge/2.jewelsAndStones.js)
+## [jewelsAndStones](https://github.com/calvinqc/allCodingChallenge/tree/master/leetcode/may_challenge/2.jewelsAndStones.js)
 
 1. If you want to loop through a String, use split("") to convert into array of characters
 
@@ -36,7 +38,7 @@ These are lesson learned when I used Javascript to solve LeetCode problems Start
 - **reduce**: Creates a single value from elements of Array
   - Ex: Creating a team from the selected candidates
 
-## [3.ransomNote.js](https://github.com/calvinqc/allCodingChallenge/tree/master/leetcode/may_challenge/3.ransomNote.js)
+## [ransomNote](https://github.com/calvinqc/allCodingChallenge/tree/master/leetcode/may_challenge/3.ransomNote.js)
 
 1. Using for...of or regular for loop instead of map, forEach, etc. for async
 
@@ -44,7 +46,7 @@ These are lesson learned when I used Javascript to solve LeetCode problems Start
 
 3. avoid create new array, sets for better memory usage.
 
-## [4.findComplement.js](https://github.com/calvinqc/allCodingChallenge/tree/master/leetcode/may_challenge/4.findComplement.js)
+## [findComplement](https://github.com/calvinqc/allCodingChallenge/tree/master/leetcode/may_challenge/4.findComplement.js)
 
 1. Learn to use [bitwise operators](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Bitwise_Operators)
 
@@ -52,26 +54,34 @@ These are lesson learned when I used Javascript to solve LeetCode problems Start
    - Binary flags take much less memory (by a factor of 32).
    - A bitmask is a sequence of bits that can manipulate and/or read flags
 
-## [5.firstUniqueChar.js](https://github.com/calvinqc/allCodingChallenge/tree/master/leetcode/may_challenge/5.firstUniqueChar.js)
+## [firstUniqueChar](https://github.com/calvinqc/allCodingChallenge/tree/master/leetcode/may_challenge/5.firstUniqueChar.js)
 
 1. Learn String's Index
 
 2. `s.lastIndexOf(char) === s.indexOf(char)` will let me if know if that char is duplicate or not
 
-## [6.majorityElement.js](https://github.com/calvinqc/allCodingChallenge/tree/master/leetcode/may_challenge/6.majorityElement.js)
+## [majorityElement](https://github.com/calvinqc/allCodingChallenge/tree/master/leetcode/may_challenge/6.majorityElement.js)
 
 N/A
 
-## [7.isCousins.js](https://github.com/calvinqc/allCodingChallenge/tree/master/leetcode/may_challenge/7.isCousins.js)
+## [isCousins](https://github.com/calvinqc/allCodingChallenge/tree/master/leetcode/may_challenge/7.isCousins.js)
 
 1. Learn to apply recursion to traverse a Binary Search Tree
 
 2. Finding depth of a node
 
-## [8.isLinear.js](https://github.com/calvinqc/allCodingChallenge/tree/master/leetcode/may_challenge/8.isLinear.js)
+## [isLinear](https://github.com/calvinqc/allCodingChallenge/tree/master/leetcode/may_challenge/8.isLinear.js)
 
 1. Review Cross Product
 
-## [9.isPerfectSquare.js](https://github.com/calvinqc/allCodingChallenge/tree/master/leetcode/may_challenge/9.isLinear.js)
+## [isPerfectSquare](https://github.com/calvinqc/allCodingChallenge/tree/master/leetcode/may_challenge/9.isLinear.js)
 
 1. N/A
+
+## [isPerfectSquare](https://github.com/calvinqc/allCodingChallenge/tree/master/leetcode/may_challenge/10.findJudge.js)
+
+1. Learn to use Lodash's function (countBy);
+
+2. How to work with Object
+
+3. Using `map`, `reduce`, `filter` is quick, but the run-time may be bad and it's easy to get in async problem.
