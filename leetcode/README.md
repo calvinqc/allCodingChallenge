@@ -68,6 +68,10 @@ N/A
 
 2. Finding depth of a node
 
-## [7.isLinear.js](https://github.com/calvinqc/allCodingChallenge/tree/master/leetcode/may_challenge/7.isLinear.js)
+## [8.isLinear.js](https://github.com/calvinqc/allCodingChallenge/tree/master/leetcode/may_challenge/8.isLinear.js)
 
 1. Review Cross Product
+
+## [9.isPerfectSquare.js](https://github.com/calvinqc/allCodingChallenge/tree/master/leetcode/may_challenge/9.isLinear.js)
+
+1. N/A
