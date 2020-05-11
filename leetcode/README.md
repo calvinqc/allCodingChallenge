@@ -78,10 +78,18 @@ N/A
 
 1. N/A
 
-## [isPerfectSquare](https://github.com/calvinqc/allCodingChallenge/tree/master/leetcode/may_challenge/10.findJudge.js)
+## [isPerfectSquare](https://github.com/calvinqc/allCodingChallenge/tree/master/leetcode/may_challenge/010.findJudge.js)
 
 1. Learn to use Lodash's function (countBy);
 
 2. How to work with Object
 
 3. Using `map`, `reduce`, `filter` is quick, but the run-time may be bad and it's easy to get in async problem.
+
+## [FloodFill](https://github.com/calvinqc/allCodingChallenge/tree/master/leetcode/may_challenge/011.floodFill.js)
+
+1. Apply DFS using recursion on one node.
+
+2. Use global variable `this`
+
+3. Learn edge cases to work with 2D Array using recursion
