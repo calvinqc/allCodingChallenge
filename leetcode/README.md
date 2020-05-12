@@ -93,3 +93,11 @@ N/A
 2. Use global variable `this`
 
 3. Learn edge cases to work with 2D Array using recursion
+
+## [SingleElement](https://github.com/calvinqc/allCodingChallenge/tree/master/leetcode/may_challenge/012.singleElement.js)
+
+1. Learn how to use `reduce`
+
+2. Learn to use XOR
+
+3. Use binary search Runtime: O(log n)
