@@ -14,6 +14,9 @@ These are lesson learned when I used Javascript to solve LeetCode problems Start
 8. [isLinear](#isLinear)
 9. [isPerfectSquare](#isPerfectSquare)
 10. [findJudge](#.findJudge)
+11. [floodFill](#.floodFill)
+12. [singleElement](#.singleElement)
+13. [removedKDigit](#.removedKDigit)
 
 ## [isBadVersion](https://github.com/calvinqc/allCodingChallenge/tree/master/leetcode/may_challenge/1.isBadVersion.js)
 
@@ -101,3 +104,7 @@ N/A
 2. Learn to use XOR
 
 3. Use binary search Runtime: O(log n)
+
+## [RemovedKDigit](https://github.com/calvinqc/allCodingChallenge/tree/master/leetcode/may_challenge/013.removedKDigit.js)
+
+1. Learn to remove any leading 0 using regex
