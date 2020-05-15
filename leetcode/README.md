@@ -13,10 +13,11 @@ These are lesson learned when I used Javascript to solve LeetCode problems Start
 7. [isCounsins](#isCousins)
 8. [isLinear](#isLinear)
 9. [isPerfectSquare](#isPerfectSquare)
-10. [findJudge](#.findJudge)
-11. [floodFill](#.floodFill)
-12. [singleElement](#.singleElement)
-13. [removedKDigit](#.removedKDigit)
+10. [findJudge](#findJudge)
+11. [floodFill](#floodFill)
+12. [singleElement](#singleElement)
+13. [removedKDigit](#removedKDigit)
+14. [TrieNode](#TrieNode)
 
 ## [isBadVersion](https://github.com/calvinqc/allCodingChallenge/tree/master/leetcode/may_challenge/1.isBadVersion.js)
 
@@ -108,3 +109,9 @@ N/A
 ## [RemovedKDigit](https://github.com/calvinqc/allCodingChallenge/tree/master/leetcode/may_challenge/013.removedKDigit.js)
 
 1. Learn to remove any leading 0 using regex
+
+## [TrieNode](https://github.com/calvinqc/allCodingChallenge/tree/master/leetcode/may_challenge/013.trie.js)
+
+1. Learn to build the whole data structure in Javascript
+
+2. Learn about TrieNode
