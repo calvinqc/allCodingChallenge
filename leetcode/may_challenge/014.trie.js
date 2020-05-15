@@ -1,14 +1,8 @@
-function TrieNode(key) {
-  this.key = key;
-  this.children = {};
-  this.end = false;
-}
-
 /**
  * Initialize your data structure here.
  */
 const Trie = () => {
-  this.root = new TrieNode(null);
+  this.root = {};
 };
 
 /**
@@ -18,20 +12,17 @@ const Trie = () => {
  */
 Trie.prototype.insert = (word) => {
   let currNode = this.root;
-  for (let i = 0; i < word.length; i += 1) {
-    const char = word[i];
-    if (!currNode.children[char]) {
-      currNode.children[char] = new TrieNode(char);
-    }
-    currNode = currNode.children[char];
-    if (i === word.length - 1) currNode.end = true;
+  for (const char of word) {
+    if (!currNode[char]) currNode[char] = { end: false };
+    currNode = currNode[char];
   }
+  currNode.end = true;
 };
 
 const traverseEndOfWord = (root, word) => {
   let currNode = root;
   for (const char of word) {
-    if (currNode.children[char]) currNode = currNode.children[char];
+    if (currNode[char]) currNode = currNode[char];
     else return null;
   }
   return currNode;
