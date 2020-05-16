@@ -110,8 +110,14 @@ N/A
 
 1. Learn to remove any leading 0 using regex
 
-## [TrieNode](https://github.com/calvinqc/allCodingChallenge/tree/master/leetcode/may_challenge/013.trie.js)
+## [TrieNode](https://github.com/calvinqc/allCodingChallenge/tree/master/leetcode/may_challenge/014.trie.js)
 
 1. Learn to build the whole data structure in Javascript
 
 2. Learn about TrieNode
+
+## [maxSubArraySumCircular](https://github.com/calvinqc/allCodingChallenge/tree/master/leetcode/may_challenge/015.maxSubArraySumCircular.js)
+
+1. Learn Dynamic Programming
+
+2. Learn Kandane's Algorithm
