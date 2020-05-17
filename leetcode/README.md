@@ -121,3 +121,9 @@ N/A
 1. Learn Dynamic Programming
 
 2. Learn Kandane's Algorithm
+
+## [oddEvenLinkedList](https://github.com/calvinqc/allCodingChallenge/tree/master/leetcode/may_challenge/016.oddEvenLinkedList.js)
+
+1. Review LinkedList
+
+2. Learn multi-chain assignment (a = b = 5)
