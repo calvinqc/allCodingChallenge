@@ -18,6 +18,9 @@ These are lesson learned when I used Javascript to solve LeetCode problems Start
 12. [singleElement](#singleElement)
 13. [removedKDigit](#removedKDigit)
 14. [TrieNode](#TrieNode)
+15. [maxSubArraySumCircular](#maxSubArraySumCircular)
+16. [oddEvenLinkedList](#oddEvenLinkedList)
+17. [findAnagram](#findAnagram)
 
 ## [isBadVersion](https://github.com/calvinqc/allCodingChallenge/tree/master/leetcode/may_challenge/1.isBadVersion.js)
 
@@ -127,3 +130,9 @@ N/A
 1. Review LinkedList
 
 2. Learn multi-chain assignment (a = b = 5)
+
+## [findAnagram](https://github.com/calvinqc/allCodingChallenge/tree/master/leetcode/may_challenge/017.findAnagram.js)
+
+1. Learn to convert char to ASCII Code
+
+2. Quicken algorithm by reducing the number of loop through array.
