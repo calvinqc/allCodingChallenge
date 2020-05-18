@@ -1,4 +1,4 @@
-# Lesson Learned
+# May Leetcode 30-day Challenge
 
 These are lesson learned when I used Javascript to solve LeetCode problems Starting from **May 1st**. The number indicate the date.
 
