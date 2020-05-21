@@ -162,3 +162,7 @@ N/A
 1. Practice more with Dynamic Programming
 
 2. Use Stack to remove items to reduce the memory and run time
+
+## [kthSmallest](https://github.com/calvinqc/allCodingChallenge/tree/master/leetcode/may_challenge/020.kthSmallest.js)
+
+1. Learn inOrder Traversal
