@@ -166,3 +166,7 @@ N/A
 ## [kthSmallest](https://github.com/calvinqc/allCodingChallenge/tree/master/leetcode/may_challenge/020.kthSmallest.js)
 
 1. Learn inOrder Traversal
+
+## [countSquares](https://github.com/calvinqc/allCodingChallenge/tree/master/leetcode/may_challenge/021.countSquares.js)
+
+1. Learn to work with Matrix
