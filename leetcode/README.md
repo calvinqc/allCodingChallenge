@@ -170,3 +170,7 @@ N/A
 ## [countSquares](https://github.com/calvinqc/allCodingChallenge/tree/master/leetcode/may_challenge/021.countSquares.js)
 
 1. Learn to work with Matrix
+
+## [frequencySort](https://github.com/calvinqc/allCodingChallenge/tree/master/leetcode/may_challenge/022.frequencySort.js)
+
+1. Learn to use `reduce`, `sort` functions
